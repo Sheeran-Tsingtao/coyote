@@ -1,0 +1,27 @@
+[coyote::test] Runtime '90c5d73d-7cfb-48e6-b638-3f32429f76c9' started 'Microsoft.Coyote.Samples.AccountManager.Program.TestConcurrentAccountCreation' on thread '4' using the 'fair-delay-bounding' strategy.
+<RandomLog> Thread '27' non-deterministically chose '1'.
+[coyote::error] Unhandled exception. Microsoft.Coyote.Samples.AccountManager.RowAlreadyExistsException: Exception of type 'Microsoft.Coyote.Samples.AccountManager.RowAlreadyExistsException' was thrown.
+   at Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.<>c__DisplayClass2_0.<CreateRow>b__0() in C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\InMemoryDbCollection.cs:line 25
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.Coyote.Runtime.CompilerServices.TaskAwaiter`1.GetResult() in D:\a\1\s\Source\Core\Runtime\CompilerServices\TaskAwaiter.cs:line 179
+   at Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount(String accountName, String accountPayload) in C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\AccountManager.cs:line 25
+   at Microsoft.Coyote.Runtime.CompilerServices.TaskAwaiter`1.GetResult() in D:\a\1\s\Source\Core\Runtime\CompilerServices\TaskAwaiter.cs:line 179
+   at Microsoft.Coyote.Samples.AccountManager.Program.TestConcurrentAccountCreation() in C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\Program.cs:line 95
+   at Microsoft.Coyote.Runtime.CoyoteRuntime.<>c__DisplayClass62_0.<RunTestAsync>b__0() in D:\a\1\s\Source\Core\Runtime\CoyoteRuntime.cs:line 384
+   at Microsoft.Coyote.Runtime.CoyoteRuntime.<>c__DisplayClass66_0.<CreateControlledThread>b__0(Object input) in D:\a\1\s\Source\Core\Runtime\CoyoteRuntime.cs:line 556
+[coyote::test] Exploration finished in runtime '90c5d73d-7cfb-48e6-b638-3f32429f76c9' [found a bug using the 'fair-delay-bounding' strategy].
+[coyote::report] Testing statistics:
+[coyote::report] Found 1 bug.
+[coyote::report] Exploration statistics:
+[coyote::report] Explored 4 execution paths: 4 fair, 0 unfair, 4 unique.
+[coyote::report] Found 25.00% buggy execution paths.
+[coyote::report] Visited 1 unique state.
+[coyote::report] Controlled 20 operations: 4 (min), 5 (avg), 6 (max).
+[coyote::report] Degree of concurrency: 2 (min), 2 (avg), 3 (max).
+[coyote::report] Degree of operation grouping: 4 (min), 4 (avg), 5 (max).
+[coyote::report] Number of scheduling decisions in fair terminating execution paths: 11 (min), 14 (avg), 17 (max).

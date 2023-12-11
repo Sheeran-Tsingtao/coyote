@@ -1,0 +1,47 @@
+<DirectedGraph xmlns='http://schemas.microsoft.com/vs/2009/dgml'>
+  <Nodes>
+    <Node Id='Operation(0)' Category='Operation' Group='Expanded'/>
+    <Node Id='Operation(0).Microsoft.Coyote.Samples.AccountManager.Program.TestConcurrentAccountCreation' Label='Microsoft.Coyote.Samples.AccountManager.Program.TestConcurrentAccountCreation'/>
+    <Node Id='Operation(0).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Label='Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount'/>
+    <Node Id='Operation(0).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist'/>
+    <Node Id='Operation(1)' Category='Operation' Group='Expanded'/>
+    <Node Id='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist'/>
+    <Node Id='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow'/>
+    <Node Id='Operation(2)' Category='Operation' Group='Expanded'/>
+    <Node Id='Operation(2).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist'/>
+    <Node Id='Operation(2).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Label='Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount'/>
+    <Node Id='Operation(3)' Category='Operation' Group='Expanded'/>
+    <Node Id='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist'/>
+    <Node Id='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow'/>
+    <Node Id='Operation(4)' Category='Operation' Group='Expanded'/>
+    <Node Id='Operation(4).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow'/>
+    <Node Id='Operation(5)' Category='Operation' Group='Expanded'/>
+    <Node Id='Operation(5).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Label='Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow'/>
+  </Nodes>
+  <Links>
+    <Link Source='Operation(0)' Target='Operation(0).Microsoft.Coyote.Samples.AccountManager.Program.TestConcurrentAccountCreation' Category='Contains'/>
+    <Link Source='Operation(0)' Target='Operation(0).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Category='Contains'/>
+    <Link Source='Operation(0)' Target='Operation(0).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Category='Contains'/>
+    <Link Source='Operation(1)' Target='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Category='Contains'/>
+    <Link Source='Operation(1)' Target='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Category='Contains'/>
+    <Link Source='Operation(2)' Target='Operation(2).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Category='Contains'/>
+    <Link Source='Operation(2)' Target='Operation(2).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Category='Contains'/>
+    <Link Source='Operation(3)' Target='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Category='Contains'/>
+    <Link Source='Operation(3)' Target='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Category='Contains'/>
+    <Link Source='Operation(4)' Target='Operation(4).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Category='Contains'/>
+    <Link Source='Operation(5)' Target='Operation(5).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Category='Contains'/>
+    <Link Source='Operation(0).Microsoft.Coyote.Samples.AccountManager.Program.TestConcurrentAccountCreation' Target='Operation(0).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Index='0'/>
+    <Link Source='Operation(0).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Target='Operation(0).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Index='0'/>
+    <Link Source='Operation(0).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Target='Operation(2).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Index='0'/>
+    <Link Source='Operation(2).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Target='Operation(2).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Index='0'/>
+    <Link Source='Operation(0).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Target='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Index='0'/>
+    <Link Source='Operation(2).Microsoft.Coyote.Samples.AccountManager.AccountManager.CreateAccount' Target='Operation(2).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Index='0'/>
+    <Link Source='Operation(2).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Target='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Index='0'/>
+    <Link Source='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Target='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Index='0'/>
+    <Link Source='Operation(1).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Target='Operation(4).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Index='0'/>
+    <Link Source='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.DoesRowExist' Target='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Index='0'/>
+    <Link Source='Operation(3).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Target='Operation(5).Microsoft.Coyote.Samples.AccountManager.InMemoryDbCollection.CreateRow' Index='0'/>
+  </Links>
+  <Styles>
+  </Styles>
+</DirectedGraph>

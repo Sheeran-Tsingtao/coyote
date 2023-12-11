@@ -1,0 +1,16 @@
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.ETags.exe
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.ETags.deps.json
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.ETags.runtimeconfig.json
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.ETags.dll
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.ETags.pdb
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.csproj.AssemblyReference.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.AssemblyInfoInputs.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.AssemblyInfo.cs
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.csproj.CoreCompileInputs.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.csproj.CopyComplete
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.dll
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\refint\AccountManager.ETags.dll
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.pdb
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\AccountManager.ETags.genruntimeconfig.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager.ETags\obj\Release\net7.0\ref\AccountManager.ETags.dll

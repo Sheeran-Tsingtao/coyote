@@ -1,0 +1,16 @@
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.exe
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.deps.json
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.runtimeconfig.json
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.dll
+C:\Users\Tian\Desktop\coyote\Samples\bin\net7.0\AccountManager.pdb
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.csproj.AssemblyReference.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.AssemblyInfoInputs.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.AssemblyInfo.cs
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.csproj.CoreCompileInputs.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.csproj.CopyComplete
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.dll
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\refint\AccountManager.dll
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.pdb
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\AccountManager.genruntimeconfig.cache
+C:\Users\Tian\Desktop\coyote\Samples\AccountManager\AccountManager\obj\Release\net7.0\ref\AccountManager.dll
